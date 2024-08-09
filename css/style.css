@@ -8,3 +8,16 @@
     font-size: 4rem;
     font-weight: 900;
 }
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#box {
+    padding: 65px 0;
+    border: dashed 1px black;
+    flex-basis: calc(100% / 7 - 120px / 7);
+
+}
