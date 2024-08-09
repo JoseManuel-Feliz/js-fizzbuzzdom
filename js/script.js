@@ -32,7 +32,7 @@ for (let i = 1; i <= 100; i++) {
     text = i;
 
     //2a. Creare un elemento per contenere i dati creati.
-    const p = document.createElement('div');
+    const box = document.createElement('div');
 
     /* 3. Per i numeri che sono sia multipli di 3 che di 5 deve stampare 
     “FizzBuzz” al posto del numero. */
@@ -52,6 +52,11 @@ for (let i = 1; i <= 100; i++) {
             text = 'buzz'
         }
     }
-
     console.log(text)
+
+    /* 6. Stampare i dati elaborati all'interno dell'elemento creato e 
+     poi inserirlo all'interno dell'elemento d'interesse del DOM. */
+    box.append(text);
+    card.appendChild(box)
+
 }
