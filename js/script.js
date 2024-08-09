@@ -19,5 +19,20 @@ poi inserirlo all'interno dell'elemento d'interesse del DOM.
 */
 
 /*  Fase di Preparazione */
+
+//1. Recupero l'elemento d'interesse all'interno del DOM.
 const card = document.getElementById('boxes');
 
+/* Fase di Elaborazione  Dati */
+
+//2. Scrivere un programma che stampi in console i numeri da 1 a 100.
+let i = ''
+let text = '';
+for (let i = 1; i <= 100; i++) {
+    text = i;
+    console.log(text)
+
+    //2a. Creare un elemento per contenere i dati creati.
+    const p = document.createElement('div');
+
+}
