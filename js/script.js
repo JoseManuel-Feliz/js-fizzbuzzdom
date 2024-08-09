@@ -19,3 +19,5 @@ poi inserirlo all'interno dell'elemento d'interesse del DOM.
 */
 
 /*  Fase di Preparazione */
+const card = document.getElementById('boxes');
+
