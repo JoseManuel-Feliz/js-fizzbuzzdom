@@ -42,7 +42,7 @@ for (let i = 1; i <= 100; i++) {
     /* 3. Per i numeri che sono sia multipli di 3 che di 5 deve stampare 
     “FizzBuzz” al posto del numero. */
     if (i % 3 == 0 && i % 5 == 0) {
-        text = 'fizzbuzz'
+        text = 'FizzBuzz'
         box.classList.add('FizzBuzz')
         box.classList.remove('number')
     }
@@ -50,7 +50,7 @@ for (let i = 1; i <= 100; i++) {
 
         //4. Per i multipli di 3 deve stampare “Fizz” al posto del numero.
         if (i % 3 == 0) {
-            text = 'fizz'
+            text = 'Fizz'
             box.classList.add('Fizz')
             box.classList.remove('number')
         }
@@ -58,7 +58,7 @@ for (let i = 1; i <= 100; i++) {
         //5. Per i multipli di 5 deve stampare “Buzz” al posto del numero.
         else if
             (i % 5 == 0) {
-            text = 'buzz'
+            text = 'Buzz'
             box.classList.add('Buzz')
             box.classList.remove('number')
         }
