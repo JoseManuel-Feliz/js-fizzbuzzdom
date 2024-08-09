@@ -38,7 +38,7 @@ for (let i = 1; i <= 100; i++) {
     //2a. Creare un elemento per contenere i dati creati.
     const box = document.createElement('div');
     box.id = 'box'
-    box.classList.add('number')
+    box.classList.add('number', 'rounded-4')
     /* 3. Per i numeri che sono sia multipli di 3 che di 5 deve stampare 
     “FizzBuzz” al posto del numero. */
     if (i % 3 == 0 && i % 5 == 0) {
